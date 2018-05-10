@@ -1,6 +1,6 @@
-create sequence VENUE_SQ;
 
-  create table student
+
+  CREATE TABLE IF NOT EXISTS student
   (
      id integer not null,
      name varchar(255) not null,
